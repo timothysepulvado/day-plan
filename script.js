@@ -2,7 +2,7 @@ $(document).ready(function(){
     // display!!!
     $("#currentDay").text(moment().format("dddd, MMMM Do"));
     
-    var timeArray = ["9 AM", "10 AM", "11 AM", "12 PM", "1 PM", "2 PM", "3 PM", "4 PM", "5 PM"]
+    var timeArray = ["12 PM", "1 PM", "2 PM", "3 PM", "4 PM", "5 PM", "6", "7", "8" ]
     var currentTime = moment().format("h A");
     
     
@@ -43,3 +43,13 @@ $(document).ready(function(){
            localStorage[name] = value;
                    
       })});
+
+      $(document).ready(function () {
+        var SaveButton = $('#button-sm');
+          SaveButton.hide();
+        $('#littleButton').click(function (e) {
+            SaveButton.animate({
+                'opacity': 'toggle'
+            });
+        });
+    });

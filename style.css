@@ -55,13 +55,14 @@ span{
 }
 
 .past {
-  background-color: #d30909;
+  background-color: #da0000;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #000000;
   color: white;
+  color: #000000;
 }
 
 .future {
@@ -70,7 +71,7 @@ span{
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid rgb(196, 8, 8);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #000000;
