@@ -11,5 +11,6 @@ Html
 if you click on a time zone, type somthing in, hit save. It will change color and save your text. 
 
 
+<img src="Dayplan.png"/>
 
 
